@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+/* ############################## HEADER ######################*/
+.ContainerHead {
+  background-image: url(/img/back.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-bottom: 100px;
+}
+
+.head-top {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: white;
+}
+
+.log-message {
+  font-size: 18px;
+}
+/* LOGIN FIELDS: */
+
+.login {
+  display: flex;
+  gap: 30px;
+}
+.input-cred {
+  width: 100px;
+  font-size: 11px;
+
+  color: white;
+  background-color: #362b25;
+
+  border: 1px solid;
+  border-radius: 7px;
+}
+.input-cred:focus {
+  background-color: white;
+  color: #2e3233;
+  border: 1px solid #2e3233;
+
+  transition: all 0.6s;
+}
+
+.submit-form {
+  width: 50px;
+  font-size: 9px;
+  color: white;
+
+  border: 1px solid;
+  border-radius: 7px;
+  background-color: #362b25;
+}
+.submit-form:hover {
+  border: 1px solid #2e3233;
+  background-color: white;
+  color: #2e3233;
+
+  transition: all 0.5s;
+}
+
+/* LOGO */
+.logo-v {
+  width: 100px;
+}
+
+/* ############################## BODY ######################*/
+
+/* ############################## FOOTER     ######################*/
