@@ -2,6 +2,8 @@ body {
   margin: 0;
 }
 /* ############################## HEADER ######################*/
+
+/* Background/Container for heading */
 .ContainerHead {
   background-image: url(/img/back.png);
   background-position: center;
@@ -9,7 +11,49 @@ body {
   background-repeat: no-repeat;
 
   padding-bottom: 100px;
+  margin: 0;
 }
+
+/* Top of the header */
+
+.head-top-main {
+  margin: 0;
+}
+.head-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  color: white;
+}
+
+.right-link {
+  display: flex;
+  gap: 26px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover,
+a:active {
+  color: #c9843a;
+  transition: all 0.5s;
+}
+/* Log in message
+
+.log-message {
+  font-size: 18px;
+}
+
+/* LOGIN FIELDS: */
 
 .head-top {
   display: flex;
@@ -20,11 +64,6 @@ body {
 
   color: white;
 }
-
-.log-message {
-  font-size: 18px;
-}
-/* LOGIN FIELDS: */
 
 .login {
   display: flex;
@@ -60,14 +99,9 @@ body {
 .submit-form:hover {
   border: 1px solid #2e3233;
   background-color: white;
-  color: #2e3233;
+  color: #c9843a;
 
   transition: all 0.5s;
-}
-
-/* LOGO */
-.logo-v {
-  width: 100px;
 }
 
 /* ############################## BODY ######################*/
