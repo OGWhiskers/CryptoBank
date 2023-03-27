@@ -15,7 +15,9 @@ body {
 }
 
 /* Top of the header */
-
+.heading {
+  font-family: "Roboto", sans-serif;
+}
 .head-top-main {
   margin: 0;
 }
@@ -30,6 +32,7 @@ body {
 .right-link {
   display: flex;
   gap: 26px;
+  font-family: "Raleway", sans-serif;
 }
 
 li {
@@ -63,6 +66,7 @@ a:active {
   align-items: center;
 
   color: white;
+  font-family: "Raleway", sans-serif;
 }
 
 .login {
@@ -78,6 +82,7 @@ a:active {
 
   border: 1px solid;
   border-radius: 7px;
+  font-family: "Raleway", sans-serif;
 }
 .input-cred:focus {
   background-color: white;
@@ -91,6 +96,7 @@ a:active {
   width: 50px;
   font-size: 9px;
   color: white;
+  font-family: "Raleway", sans-serif;
 
   border: 1px solid;
   border-radius: 7px;
@@ -107,3 +113,11 @@ a:active {
 /* ############################## BODY ######################*/
 
 /* ############################## FOOTER     ######################*/
+/* FONTS:
+
+font-family: 'Inconsolata', monospace;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
