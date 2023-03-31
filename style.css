@@ -32,7 +32,7 @@ body {
 .right-link {
   display: flex;
   gap: 26px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Inconsolata", monospace;
 }
 
 li {
@@ -66,7 +66,7 @@ a:active {
   align-items: center;
 
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Inconsolata", monospace;
 }
 
 .login {
@@ -75,14 +75,14 @@ a:active {
 }
 .input-cred {
   width: 100px;
-  font-size: 11px;
+  font-size: 12px;
 
   color: white;
   background-color: #362b25;
 
   border: 1px solid;
   border-radius: 7px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Inconsolata", monospace;
 }
 .input-cred:focus {
   background-color: white;
@@ -93,10 +93,10 @@ a:active {
 }
 
 .submit-form {
-  width: 50px;
-  font-size: 9px;
+  width: 55px;
+  font-size: 11px;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Inconsolata", monospace;
 
   border: 1px solid;
   border-radius: 7px;
@@ -112,6 +112,28 @@ a:active {
 
 /* ############################## BODY ######################*/
 
+/*MODAL DESIGN SIGN IN:  */
+
+.sign-modal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  max-width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  background-color: #2e3233;
+}
+
+.top-modal {
+  display: flex;
+  justify-content: space-around;
+}
 /* ############################## FOOTER     ######################*/
 /* FONTS:
 

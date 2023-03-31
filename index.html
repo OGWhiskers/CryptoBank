@@ -35,9 +35,6 @@
           <div class="Log">
             <p class="log-message">Log in to account</p>
           </div>
-          <!-- <div class="logo">
-            <img src="/img/lo.jpg" alt="logo" srcset="" class="logo-v" />
-          </div> -->
           <div class="login">
             <div>
               <input
@@ -58,7 +55,38 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- HIDDEN MODALS: -->
+      <div class="sign-modal hidden">
+        <div class="wrapper">
+          <div class="top-modal">
+            <h1>Sign In</h1>
+            <button class="close-btn">&times;</button>
+          </div>
+          <!-- Googl how to cutomize hr line -->
+          <hr />
+          <div class="login-modal">
+            <div>
+              <input
+                type="text"
+                placeholder="Enter User Name"
+                class="input-cred inputUsername"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder="Enter Pin"
+                class="input-cred inputPin"
+              />
+            </div>
+            <hr />
+
+            <button type="submit" class="submit--modal">Submit</button>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
     <script src="/script.js"></script>
   </body>
